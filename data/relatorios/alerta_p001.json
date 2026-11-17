@@ -1,0 +1,20 @@
+{
+  "timestamp": "17/11/2026 18:05:00",
+  "tipo": "ALERTA_MULTIMODAL",
+  "paciente_id": "P001",
+  "nivel_risco": "Alto",
+  "score_consolidado": 61.0,
+  "scores_parciais": {
+    "vocal": 81.2,
+    "textual": 20,
+    "postural": 74.9
+  },
+  "indicadores_ativos": [
+    "Jitter vocal elevado (2.1924%)",
+    "Shimmer vocal elevado (10.7610%)",
+    "HNR baixo (12.52 dB)",
+    "Alta taxa de alertas posturais (31.6%)",
+    "Assimetria de joelhos (21.7°)"
+  ],
+  "acao_recomendada": "AÇÃO IMEDIATA: Acionar equipe médica de plantão. Reavaliação presencial urgente."
+}

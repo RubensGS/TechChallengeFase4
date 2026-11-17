@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "paciente_id": "P001",
+    "timestamp": "2026-11-17T18:05:16.334176",
+    "versao": "1.0",
+    "sistema": "MonitorIA Fase 4 — PosTech FIAP"
+  },
+  "scores": {
+    "audio": 81.2,
+    "nlp": 20,
+    "video": 74.9,
+    "final": 61.0,
+    "risco": "Alto"
+  },
+  "detalhes_audio": {
+    "transcricao": "Kids are talking by the door.",
+    "sentimento": {
+      "sentimento": "Neutro",
+      "confianca_pct": 84.4,
+      "risco_sentimento": "Baixo",
+      "emoji": "🟡"
+    },
+    "ner": {
+      "entidades_bio": [
+        {
+          "texto": "kids",
+          "tipo": "Subject",
+          "confianca": 0.6290000081062317
+        }
+      ],
+      "termos_criticos": [],
+      "alerta_ner": true
+    },
+    "praat": {
+      "jitter_pct": 2.1924,
+      "shimmer_pct": 10.761,
+      "hnr_db": 12.5192
+    },
+    "features": {
+      "pitch_hz": 229.04,
+      "energia": 0.02064,
+      "duracao_s": 3.7
+    }
+  },
+  "detalhes_video": {
+    "duracao_s": 466.8,
+    "taxa_alerta_pct": 31.6,
+    "media_assimetria_joelhos": 21.661154855643044,
+    "media_desnivel_ombros": 0.055004855643044616
+  },
+  "alerta": {
+    "timestamp": "17/11/2026 18:05:00",
+    "tipo": "ALERTA_MULTIMODAL",
+    "paciente_id": "P001",
+    "nivel_risco": "Alto",
+    "score_consolidado": 61.0,
+    "scores_parciais": {
+      "vocal": 81.2,
+      "textual": 20,
+      "postural": 74.9
+    },
+    "indicadores_ativos": [
+      "Jitter vocal elevado (2.1924%)",
+      "Shimmer vocal elevado (10.7610%)",
+      "HNR baixo (12.52 dB)",
+      "Alta taxa de alertas posturais (31.6%)",
+      "Assimetria de joelhos (21.7°)"
+    ],
+    "acao_recomendada": "AÇÃO IMEDIATA: Acionar equipe médica de plantão. Reavaliação presencial urgente."
+  },
+  "relatorio_clinico": "# RELATÓRIO CLÍNICO MULTIMODAL\n\n## PACIENTE P001\n**Data da Análise:** 17/11/2026 — 18:02h  \n**Documento gerado por:** Sistema de IA Clínica Multimodal\n\n---\n\n## 1. SUMÁRIO EXECUTIVO\n\nPaciente apresenta **RISCO ALTO (61/100)** com comprometimento significativo nos domínios vocal e postural. A análise vocal evidencia alterações acústicas compatíveis com disfonia de grau moderado a severo, enquanto a avaliação postural demonstra assimetria importante de membros inferiores. A análise linguístico-textual não revelou alterações de conteúdo cognitivo ou emocional, sugerindo preservação das funções cognitivas superiores relacionadas à linguagem.\n\n---\n\n## 2. ACHADOS POR MODALIDADE\n\n### 2.1 Análise Vocal (Score: 81.2/100 — ALTERADO)\n\n| Parâmetro | Valor Obtido | Referência Normal | Status |\n|-----------|--------------|-------------------|--------|\n| **Jitter** | 2.19% | < 1.04% | ⚠️ **ELEVADO (2.1x)** |\n| **Shimmer** | 10.76% | < 3.81% | 🔴 **ELEVADO (2.8x)** |\n| **HNR** | 12.52 dB | > 20 dB | 🔴 **REDUZIDO** |\n| **Pitch médio** | 229.0 Hz | Variável por sexo | Dentro da faixa feminina |\n\n**Interpretação Clínica:**\n- O padrão acústico é compatível com **disfonia de provável origem orgânica ou funcional**\n- Jitter elevado sugere irregularidade no ciclo vibratório glótico (instabilidade de frequência fundamental)\n- Shimmer significativamente elevado indica variação anormal de amplitude, podendo refletir fechamento glótico incompleto ou lesão de massa em prega vocal\n- HNR reduzido (12.52 dB vs. >20 dB) demonstra aumento do componente de ruído, característico de escape aéreo ou aspereza vocal\n- **Hipóteses diagnósticas a considerar:** disfonia funcional, lesões benignas de pregas vocais (nódulos, pólipos, edema de Reinke), paresia/paralisia de prega vocal, ou alterações neuromusculares iniciais\n\n### 2.2 Análise Linguístico-Textual (Score: 20/100 — NORMAL)\n\n| Componente | Resultado |\n|------------|-----------|\n| **Sentimento** | Neutro (84.4% confiança) |\n| **Entidades médicas relevantes** | Nenhuma |\n| **Termos críticos** | Ausentes |\n| **Coerência do discurso** | Preservada |\n\n**Interpretação Clínica:**\n- Frase de teste (\"Kids are talking by the door\") produzida sem alterações semânticas ou sintáticas\n- Ausência de marcadores linguísticos de sofrimento psíquico, confusão mental ou declínio cognitivo\n- Conteúdo afetivamente neutro, sem indicadores de ideação negativa\n- **Funções cognitivo-linguísticas aparentemente preservadas**\n\n### 2.3 Análise Postural/Motora (Score: 74.9/100 — ALTERADO)\n\n| Parâmetro | Valor Obtido | Interpretação |\n|-----------|--------------|---------------|\n| **Duração da análise** | 466.8 segundos (~7.8 min) | Amostra adequada |\n| **Taxa de alertas posturais** | 31.6% dos frames | 🔴 **ELEVADA** |\n| **Assimetria de joelhos** | 21.7° | 🔴 **SIGNIFICATIVA** |\n| **Desnível de ombros** | 0.055 (5.5%) | ⚠️ **LEVE** |\n\n**Interpretação Clínica:**\n- Assimetria de 21.7° entre joelhos é **clinicamente significativa**, podendo indicar:\n  - Discrepância de comprimento de membros inferiores\n  - Alteração de tônus muscular assimétrica\n  - Compensação antálgica por dor em membro inferior\n  - Patologia articular unilateral (gonartrose, lesão meniscal)\n  - Déficit neuromotor com componente assimétrico\n- Taxa de alertas posturais em quase 1/3 do tempo de observação sugere **instabilidade postural sustentada**\n- Desnível discreto de ombros pode ser compensatório à assimetria de MMII\n\n---\n\n## 3. CORRELAÇÕES ENTRE MODALIDADES\n\n### 🔗 Correlações Identificadas\n\n| Padrão | Modalidades Envolvidas | Hipótese Integrativa |\n|--------|------------------------|----------------------|\n| **Disfunção neuromuscular** | Vocal + Postural | Alterações vocais (instabilidade fonatória) + assimetria postural podem sugerir **comprometimento neurológico central ou periférico incipiente** |\n| **Preservação cognitiva** | Textual (normal) vs. Vocal/Postural (alterados) | Dissociação sugere que o processo patológico **poupa funções corticais superiores**, favorecendo etiologia periférica, bulbar ou de tronco encefálico |\n| **Padrão de fraqueza/incoordenação** | Vocal + Postural | Shimmer elevado (controle muscular laríngeo) + instabilidade postural podem indicar **miopatia, doença do neurônio motor inferior ou síndrome parkinsoniana"
+}

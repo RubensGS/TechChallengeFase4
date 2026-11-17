@@ -1,0 +1,35 @@
+{
+  "id_paciente": "P002",
+  "arquivo": "03-01-06-02-01-02-10.wav",
+  "transcricao": "Kids are talking by the door.",
+  "risco_geral": "Alto",
+  "flags_ativos": 4,
+  "sentimento": {
+    "sentimento": "Neutro",
+    "confianca_pct": 84.4,
+    "risco_sentimento": "Baixo",
+    "emoji": "🟡"
+  },
+  "ner": {
+    "entidades_bio": [
+      {
+        "texto": "kids",
+        "tipo": "Subject",
+        "confianca": 0.6290000081062317
+      }
+    ],
+    "termos_criticos": [],
+    "alerta_ner": true
+  },
+  "features_resumo": {
+    "pitch_hz": 229.04,
+    "energia": 0.02064,
+    "duracao_s": 3.7
+  },
+  "praat_resumo": {
+    "jitter_pct": 2.1924,
+    "shimmer_pct": 10.761,
+    "hnr_db": 12.5192
+  },
+  "relatorio_clinico": "# RELATÓRIO CLÍNICO DE ANÁLISE VOCAL\n\n## Paciente: P002\n**Data da Análise:** Não especificada\n**Tipo de Avaliação:** Análise acústica computadorizada com processamento de linguagem natural\n\n---\n\n## 1. RESUMO DO ESTADO VOCAL\n\nO paciente apresenta **alterações vocais significativas** evidenciadas por múltiplos parâmetros acústicos fora dos valores de referência. A análise computadorizada revela um padrão de **disfonia moderada a severa**, caracterizada por instabilidade fonatória importante e presença de componente ruidoso na emissão vocal.\n\n| Parâmetro | Valor Encontrado | Valor de Referência | Status |\n|-----------|------------------|---------------------|--------|\n| Jitter | 2,19% | < 1,04% | ⚠️ ELEVADO (2,1x) |\n| Shimmer | 10,76% | < 3,81% | ⚠️ ELEVADO (2,8x) |\n| HNR | 12,52 dB | > 20 dB | ⚠️ REDUZIDO |\n| Pitch médio | 229,0 Hz | — | Compatível com voz feminina/infantil |\n\n---\n\n## 2. ACHADOS CLÍNICOS RELEVANTES\n\n### 2.1 Alterações Acústicas\n- **Jitter elevado (2,19%):** Indica irregularidade no ciclo vibratório das pregas vocais, sugestivo de alteração de massa ou tensão laríngea\n- **Shimmer elevado (10,76%):** Demonstra variabilidade excessiva na amplitude do sinal vocal, podendo indicar fechamento glótico incompleto ou lesão estrutural\n- **HNR reduzido (12,52 dB):** Confirma presença significativa de componente de ruído na voz, característico de escape aéreo ou vibração aperiódica\n\n### 2.2 Análise Linguística\n- Conteúdo verbal com **sentimento neutro** (84,4% de confiança)\n- **Ausência de termos críticos** ou queixas explícitas na amostra analisada\n- Amostra de fala curta (3,7 segundos) — pode limitar a representatividade da análise\n\n### 2.3 Padrão Clínico Sugestivo\nA tríade de achados (jitter ↑, shimmer ↑, HNR ↓) é compatível com:\n- Disfonia funcional ou organofuncional\n- Possível lesão de massa em pregas vocais (nódulos, pólipos, edema)\n- Fadiga vocal ou processo inflamatório laríngeo\n\n---\n\n## 3. NÍVEL DE RISCO E JUSTIFICATIVA\n\n### 🔴 RISCO: ALTO (4/5 indicadores positivos)\n\n**Justificativa:**\n| Indicador | Avaliação |\n|-----------|-----------|\n| Jitter alterado | ✅ Positivo |\n| Shimmer alterado | ✅ Positivo |\n| HNR reduzido | ✅ Positivo |\n| Padrão acústico consistente | ✅ Positivo |\n| Queixas verbais explícitas | ❌ Não identificadas |\n\nA classificação de risco alto fundamenta-se na **convergência de múltiplos marcadores objetivos de disfunção vocal**, independentemente da ausência de queixas verbalizadas na amostra.\n\n---\n\n## 4. RECOMENDAÇÕES PARA A EQUIPE MÉDICA\n\n### Condutas Prioritárias\n1. **Avaliação otorrinolaringológica** com videolaringoscopia para visualização direta das pregas vocais\n2. **Avaliação fonoaudiológica completa** incluindo análise perceptivo-auditiva (escala GRBAS ou CAPE-V)\n\n### Condutas Complementares\n3. Coleta de **an"
+}
